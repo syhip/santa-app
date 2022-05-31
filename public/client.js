@@ -12,4 +12,5 @@ const santaForm = document.forms[0];
 santaForm.onsubmit = function (event) {
   // TODO: check the text isn't more than 100chars before submitting
   // event.preventDefault();
+  return true
 };
